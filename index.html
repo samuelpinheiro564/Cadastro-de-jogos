@@ -4,14 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="assets/js/scrip.js"></script>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <title></title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/scrip.js"></script>
+    <title>Cadastro de jogos</title>
 </head>
 
 <body>
 
-    
+    <div id="container-principal">
+
+        <h2 id="principal-title">Cadastro de jogos</h2>
+
+        <div id="container-inputs">
+            <label for="input-title">Título</label>
+            <input type="text" id="input-title" class="inputs" name="title">
+
+            <label for="input-preco">Preço</label>
+            <input type="number" id="input-preco" class="inputs" name="preco">
+
+            <label for="input-descricao">Descrição</label>
+            <input type="text" id="input-descricao" class="inputs" name="descricao">
+
+            <label for="input-plataforma">Plataforma</label>
+            <input type="text" id="input-plataforma" class="inputs" name="plataforma">
+
+            <label for="input-imgLink">Link da imagem</label>
+            <input type="text" id="input-imgLink" class="inputs" name="imgLink">
+            
+            <div id="msg">Teste</div>
+
+            <button id="button-CreateGame" class="button" onclick="verifyInput()">enviar</button>
+        </div>
+
+
+
+
+    </div>
+
+
+
 </body>
 
 </html>
